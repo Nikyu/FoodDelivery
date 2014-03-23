@@ -1,0 +1,121 @@
+body {
+	font-family: Verdana;
+	background-image: url("img/p5.png");
+	color: #555;
+	margin: 0;
+}
+
+* {
+	box-sizing: border-box: ;
+}
+/*CSS Grid =====================================*/
+
+.container {
+	width: 1180px;
+	height: 100px;
+	margin: 10px auto;
+}
+
+a{
+	text-decoration:none;
+}
+
+.row {
+	margin-bottom: 20px;
+}
+
+.row::after {
+	display: block;
+	content: '.';
+	height: 0px;
+	visibility: hidden;
+	clear: both;
+}
+
+[class*="span"] {
+	float: left;
+	display: inline;
+	margin-right: 20px;
+}
+
+[class*="span"]:last-child {
+	margin-right: 0px;
+	float: right;
+}
+
+.span1  { width:   80px; }
+.span2  { width:  180px; }
+.span3  { width:  280px; }
+.span4  { width:  380px; }
+.span5  { width:  480px; }
+.span6  { width:  580px; }
+.span7  { width:  680px; }
+.span8  { width:  780px; }
+.span9  { width:  880px; }
+.span9  { width:  980px; }
+.span11 { width: 1080px; }
+.span12 { width: 1180px; }
+
+.offset1  { margin-left:   80px; }
+.offset2  { margin-left:  180px; }
+.offset3  { margin-left:  280px; }
+.offset4  { margin-left:  380px; }
+.offset5  { margin-left:  480px; }
+.offset6  { margin-left:  580px; }
+.offset7  { margin-left:  680px; }
+.offset8  { margin-left:  780px; }
+.offset9  { margin-left:  880px; }
+.offset10 { margin-left:  980px; }
+.offset11 { margin-left: 1080px; }
+.offset12 { margin-left: 1180px; }
+
+/*CSS main style =====================================*/
+
+.header {
+	text-align: center;
+}
+
+.login {
+	text-align: right;
+	line-height: 100px;
+}
+
+.menu {
+	text-align: center;
+	background-color: #EEE;
+	background-image: linear-gradient(to top, #BBB, #EEE);
+}
+
+.menu nav ul {
+	list-style-type: none;
+	margin: 0px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0px;
+}
+
+.menu nav ul li {
+	display: inline;
+	margin: 0px;
+	
+}
+
+.menu nav ul li:hover {
+	background-color: #EEE;
+	box-shadow: inset 0px 1px 2px 1px #666;
+	
+}
+
+
+.menu nav ul li menuitem {
+	text-decoration: none;
+	text-transform: uppercase;
+	margin:0px 100px;
+}
+
+.cright {
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	border-top: 1px dotted #444;
+}
