@@ -1,8 +1,9 @@
 body {
-	font-family: Verdana;
+	width: 1200px;
+	font-family: "Times New Roman", Arial;
 	background-image: url("img/p5.png");
 	color: #555;
-	margin: 0;
+	margin: 10px auto;
 }
 
 * {
@@ -12,8 +13,10 @@ body {
 
 .container {
 	width: 1180px;
-	height: 100px;
-	margin: 10px auto;
+	margin: 0px auto;
+	background-color: #FFF;
+	box-shadow: 3px 3px 5px 1px #888;
+    border-radius: 20px 20px 20px 20px;
 }
 
 a{
@@ -73,6 +76,11 @@ a{
 
 .header {
 	text-align: center;
+	font-family: 'Nothing You Could Do', cursive;
+}
+
+.header h1 {
+	font-size: 50px;
 }
 
 .login {
@@ -80,10 +88,17 @@ a{
 	line-height: 100px;
 }
 
+.container .row:first-child {
+	background-color: #EFEFEF;
+	border-radius: 20px 20px 0px 0px;
+	margin-bottom: 0px;
+}
+
 .menu {
 	text-align: center;
 	background-color: #EEE;
 	background-image: linear-gradient(to top, #BBB, #EEE);
+    border-radius: 0px 0px 20px 20px;
 }
 
 .menu nav ul {
@@ -95,17 +110,20 @@ a{
 }
 
 .menu nav ul li {
-	display: inline;
+	display: inline-block;
 	margin: 0px;
-	
+	padding: 0px;
+    height: 40px;
 }
 
 .menu nav ul li:hover {
 	background-color: #EEE;
-	box-shadow: inset 0px 1px 2px 1px #666;
-	
+	background-image: linear-gradient(to bottom, #EEE, #FFF);
 }
 
+a:focus {
+    outline: none;
+}
 
 .menu nav ul li menuitem {
 	text-decoration: none;
