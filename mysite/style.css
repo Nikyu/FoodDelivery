@@ -75,6 +75,7 @@ a{
 /*CSS main style =====================================*/
 
 .header {
+	float:left;
 	text-align: center;
 	font-family: 'Nothing You Could Do', cursive;
 }
@@ -84,8 +85,13 @@ a{
 }
 
 .login {
+	font-size:20px;
+	margin-top:10px;
+	margin-right:20px;
+	float:right;
+	height:100px;
+	width:200px;
 	text-align: right;
-	line-height: 100px;
 }
 
 .container .row:first-child {
@@ -131,6 +137,10 @@ a:focus {
 	margin:0px 100px;
 }
 
+.content{
+	float: right;
+	width:1160px;
+}
 .cright {
 	height: 100px;
 	line-height: 100px;
