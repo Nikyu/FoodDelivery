@@ -4,6 +4,7 @@ body {
 	background-image: url("img/mainbg.jpg");
 	color: #555;
 	margin: 10px auto;
+	background-attachment: fixed;
 }
 
 * {
@@ -89,7 +90,7 @@ a{
 	background-color: #FFF;
 	border-radius: 20px 20px 0px 0px;
 	margin-bottom: 0px;
-	background-image: url("img/headerimage2.jpg");
+	background-image: url("img/headerimage7.jpg");
 	background-repeat: no-repeat;
 	background-position: right;
 }
@@ -102,6 +103,7 @@ a{
 	background-image: linear-gradient(to top, #c6f500, #e0fa71);
     border-radius: 0px 0px 20px 20px;
     margin-bottom: 0px;
+
 }
 
 .menu nav ul {
@@ -133,7 +135,7 @@ a:focus {
 }
 
 .login-menu {
-	border-radius: 0px 0px 20px 20px;
+	border-radius: 0px 0px 30px 30px;
 	background-image: linear-gradient(to bottom, #a4d300, #e0fa71);
 	text-align: center;
 	height: 30px;
