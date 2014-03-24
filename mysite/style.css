@@ -1,13 +1,14 @@
 body {
 	width: 1200px;
 	font-family: "Times New Roman", Arial;
-	background-image: url("img/p5.png");
+	background-image: url("img/mainbg.jpg");
 	color: #555;
 	margin: 10px auto;
+	background-attachment: fixed;
 }
 
 * {
-	box-sizing: border-box: ;
+	box-sizing: border-box;
 }
 /*CSS Grid =====================================*/
 
@@ -75,15 +76,21 @@ a{
 /*CSS main style =====================================*/
 
 .header {
+<<<<<<< HEAD
 	float:left;
 	text-align: center;
+=======
+>>>>>>> da4c64a011cc8866362f7c01c6f47023e3cb0987
 	font-family: 'Nothing You Could Do', cursive;
 }
 
 .header h1 {
+	margin-left: 40px;
 	font-size: 50px;
+	color: #555;
 }
 
+<<<<<<< HEAD
 .login {
 	font-size:20px;
 	margin-top:10px;
@@ -93,18 +100,27 @@ a{
 	width:200px;
 	text-align: right;
 }
+=======
+>>>>>>> da4c64a011cc8866362f7c01c6f47023e3cb0987
 
 .container .row:first-child {
-	background-color: #EFEFEF;
+	background-color: #FFF;
 	border-radius: 20px 20px 0px 0px;
 	margin-bottom: 0px;
+	background-image: url("img/headerimage7.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
 }
+
+/* Menu styles ===================================*/
 
 .menu {
 	text-align: center;
 	background-color: #EEE;
-	background-image: linear-gradient(to top, #BBB, #EEE);
+	background-image: linear-gradient(to top, #c6f500, #e0fa71);
     border-radius: 0px 0px 20px 20px;
+    margin-bottom: 0px;
+
 }
 
 .menu nav ul {
@@ -115,32 +131,69 @@ a{
 	padding: 0px;
 }
 
-.menu nav ul li {
+.menu nav ul a li {
 	display: inline-block;
-	margin: 0px;
 	padding: 0px;
     height: 40px;
+	text-transform: uppercase;
+	margin:0px auto;
+    width: 240px;
+	color: #333;	
+	font-family: 'Lobster', sans-serif;
 }
 
-.menu nav ul li:hover {
+.menu nav ul a li:hover {
 	background-color: #EEE;
-	background-image: linear-gradient(to bottom, #EEE, #FFF);
+	background-image: linear-gradient(to bottom, #c6f500, #e0fa71);
 }
 
 a:focus {
     outline: none;
 }
 
-.menu nav ul li menuitem {
-	text-decoration: none;
-	text-transform: uppercase;
-	margin:0px 100px;
+.login-menu {
+	border-radius: 0px 0px 30px 30px;
+	background-image: linear-gradient(to bottom, #a4d300, #e0fa71);
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
 }
 
+.login-menu ul {
+	list-style-type: none;
+	margin: 0px auto;
+}
+
+.login-menu ul a li {
+	display: inline-block;
+	padding: 0px;
+	text-transform: uppercase;
+	margin:0px auto;
+    width: 240px;
+    color: #333;
+    font-size: 13px;
+}
+
+.login-menu ul a li:hover{
+	background-color: #EEE;
+	background-image: linear-gradient(to bottom, #a4d300, #f4ffa6);
+}
+
+/* Content styles ================================*/
+
+.main-content {
+	margin: 50px;
+	
+}
+
+<<<<<<< HEAD
 .content{
 	float: right;
 	width:1160px;
 }
+=======
+/* Footer styles ===============================*/
+>>>>>>> da4c64a011cc8866362f7c01c6f47023e3cb0987
 .cright {
 	height: 100px;
 	line-height: 100px;
