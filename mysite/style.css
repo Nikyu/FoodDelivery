@@ -76,6 +76,11 @@ a{
 /*CSS main style =====================================*/
 
 .header {
+<<<<<<< HEAD
+	float:left;
+	text-align: center;
+=======
+>>>>>>> da4c64a011cc8866362f7c01c6f47023e3cb0987
 	font-family: 'Nothing You Could Do', cursive;
 }
 
@@ -85,6 +90,18 @@ a{
 	color: #555;
 }
 
+<<<<<<< HEAD
+.login {
+	font-size:20px;
+	margin-top:10px;
+	margin-right:20px;
+	float:right;
+	height:100px;
+	width:200px;
+	text-align: right;
+}
+=======
+>>>>>>> da4c64a011cc8866362f7c01c6f47023e3cb0987
 
 .container .row:first-child {
 	background-color: #FFF;
@@ -201,7 +218,14 @@ a:focus {
 	
 }
 
+<<<<<<< HEAD
+.content{
+	float: right;
+	width:1160px;
+}
+=======
 /* Footer styles ===============================*/
+>>>>>>> da4c64a011cc8866362f7c01c6f47023e3cb0987
 .cright {
 	height: 100px;
 	line-height: 100px;
