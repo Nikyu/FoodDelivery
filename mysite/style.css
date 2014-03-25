@@ -162,8 +162,40 @@ a:focus {
 	background-image: linear-gradient(to bottom, #a4d300, #f4ffa6);
 }
 
-/* Content styles ================================*/
+/* Registration content styles ================================*/
 
+.registration{
+	width:100%;
+}
+
+.registration div{
+	margin-top:-10px;;
+	height:150px;
+	width:500px;
+	float:left;
+}
+.registration h2{
+	margin-bottom:5px;
+}
+
+.registration input{
+	background:#f5f5f5;
+	border-radius:8px;
+	outline:none;	
+	height:30px;
+	width:300px;
+	padding:5px;
+	font-size:18px;
+}
+
+.registration button{
+	text-decoration: none;
+	outline:none;
+	background: #c6f500;
+	border-color: #c6f500;
+}
+
+/* Content styles ================================*/
 .main-content {
 	margin: 50px;
 	
