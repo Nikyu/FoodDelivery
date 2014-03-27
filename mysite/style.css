@@ -86,13 +86,14 @@ a{
 }
 
 
-.container .row:first-child {
+/*.container .row:first-child*/ 
+#headerid {
 	background-color: #FFF;
 	border-radius: 20px 20px 0px 0px;
-	margin-bottom: 0px;
-	background-image: url("img/headerimage7.jpg");
+	background-image: url("img/headerimage2.jpg");
 	background-repeat: no-repeat;
 	background-position: right;
+	margin-bottom: 0px;
 }
 
 /* Menu styles ===================================*/
