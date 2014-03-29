@@ -170,11 +170,13 @@ a:focus {
 
 .registration div{
 	margin-top:-10px;;
-	height:150px;
+	height:130px;
 	width:500px;
-	float:left;
+	float:right;
 }
+
 .registration h2{
+	font-size:20px;
 	margin-bottom:5px;
 }
 
@@ -185,12 +187,19 @@ a:focus {
 	height:30px;
 	width:300px;
 	padding:5px;
-	font-size:18px;
+	font-size:15px;
 }
 
 .registration button{
-	text-decoration: none;
+	cursor:pointer;
+	border-left: 1px solid #CCC; 
+	border-top: 1px solid #CCC; 
+	border-right: 2px solid #666; 
+	border-bottom: 2px solid #666;
+	margin-left:75px;	
+	width:80px;
 	outline:none;
+	height:30px;
 	background: #c6f500;
 	border-color: #c6f500;
 }
