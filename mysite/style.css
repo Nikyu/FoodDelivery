@@ -169,8 +169,8 @@ a:focus {
 }
 
 .registration div{
-	margin-top:-10px;;
-	height:130px;
+	margin-top:-10px;
+	height:110px;
 	width:500px;
 	float:right;
 }
@@ -190,7 +190,7 @@ a:focus {
 	font-size:15px;
 }
 
-.registration button{
+.sendButton{
 	cursor:pointer;
 	border-left: 1px solid #CCC; 
 	border-top: 1px solid #CCC; 
